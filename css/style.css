@@ -1,0 +1,52 @@
+@font-face {
+	font-family:Regular;
+	src:url("../fonts/Regular.otf");
+}
+@font-face {
+	font-family:Bold;
+	src:url("../fonts/Bold.otf");
+}
+@font-face {
+	font-family:Extrabold;
+	src:url("../fonts/ExtraBold.otf");
+}
+@font-face {
+	font-family:GeometriaBold;
+	src:url("../fonts/Geometria-Bold.otf");
+}
+
+body{
+	font-family: "Regular", sans-serif;
+	font-size: 16px;
+}
+.container{
+	max-width: 1260px;
+	margin: 0 auto;
+}
+
+/* header */
+.header-flex{
+	padding: 50px 0 44px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo__item{
+	font-family: "Extrabold";
+	font-size: 30px;
+	color: #002543;	
+}
+.menu__href{
+	font-family: "Bold";
+	font-size: 10px;
+	color: #002543;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+.menu__item{
+	display: inline-block;
+	margin-left: 16px;
+}
+.menu__item:first-child{
+	margin-left: 0px;
+}
