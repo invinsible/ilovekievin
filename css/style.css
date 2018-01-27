@@ -23,6 +23,12 @@ body{
 	max-width: 1260px;
 	margin: 0 auto;
 }
+.title{
+	font-family: "Bold";
+	font-size: 36px;
+	color: #002543;
+	text-align: center;
+}
 
 /* header */
 .header-flex{
@@ -87,4 +93,38 @@ body{
 	font-size: 20px;
 	line-height: 28px;
 	color: #525252;
+}
+
+.content-flex{
+	display: flex;
+	flex-wrap: wrap;
+}
+.content .title{
+	margin-top: 100px;
+	margin-bottom: 70px;
+}
+.item{
+	width: 33%;
+	margin-bottom: 40px;
+}
+.item-img, .item-txt{
+	display: inline-block;
+	vertical-align: top;
+}
+.item-img{
+	width: 80px;
+	margin-right:15px;
+}
+.item-txt{
+	font-size: 16px;
+	font-family: Regular;
+	color: #525252;
+	line-height: 23px;
+	width: 60%;
+}
+.item-txt span{
+	display: block;
+	font-family: GeometriaBold;
+	color: #002543;
+	margin-bottom: 10px;
 }
