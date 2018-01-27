@@ -64,7 +64,7 @@ body{
 	height: 500px;
 	position: relative;
 }
-.banner:after {
+.banner:after, footer:after {
     content: '';
     position: absolute;
     top: -1px;
@@ -132,8 +132,8 @@ body{
 
 /* REGISTER */
 .register .title{
-	margin-top: 130px;
-	margin-bottom: 30px;
+	margin-top: 100px;
+	margin-bottom: 35px;
 }
 
 .register-text{
@@ -144,7 +144,7 @@ body{
 }
 .registration-form{
 	text-align: center;
-	margin-top: 30px;
+	margin-top: 47px;
 	margin-bottom: 35px;
 }
 .registration-form input[type="text"], .registration-form input[type="password"] {
@@ -157,7 +157,7 @@ body{
     font-size: 15px;
     font-family: "Regular";
     color: rgba(0, 37, 67, 0.5);
-    width: 258px;
+    width: 290px;
     margin-right: 20px;
 }
 .conf-politic{
@@ -166,13 +166,14 @@ body{
 	color: #525252;
 	display: block;
 	margin-top: 30px;
-	margin-bottom: 40px;
+	margin-bottom: 25px;
 }
-.conf-politic a{
+.conf-politic a, .footer-email a, .politic-btn{
+	font-family: "Regular";
 	color: #002543;
 	border-bottom: 2px solid #f59aa0;
 }
-.conf-politic a:hover{
+.conf-politic a:hover, .footer-email a:hover, .politic-btn:hover{
 	border-color: transparent;
 }
 .conf-politic input[type=checkbox]{
@@ -200,4 +201,37 @@ body{
 }
 button.no-active{
 	background: rgba(235, 52, 65, 0.5);;
+}
+
+/* FOOTER */
+
+footer{
+	padding: 52px 0 25px 0;
+	position: relative;
+	margin-top: 120px;
+}
+.footer-logo{
+	font-family: "Extrabold";
+	font-size: 24px;
+	color: #002543;
+}
+.footer-flex{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;	
+}
+.footer-number a{
+	font-family: "Bold";
+	font-size: 16px;
+	color: #002543;
+}
+.footer-txt{
+	font-size: 14px;
+	color: #525252;
+	margin-top: 5px;
+	display: block;
+}
+.footer-politic{
+	text-align: center;
+	margin-top: 50px;
 }
