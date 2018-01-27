@@ -114,6 +114,7 @@ body{
 }
 .item-img{
 	width: 80px;
+	height: 80px;
 	margin-right:15px;
 }
 .item-txt{
@@ -125,8 +126,7 @@ body{
 }
 .item-txt span{
 	display: block;
-	font-family: GeometriaBold;
-	
+	font-family: "Bold";	
 	margin-bottom: 10px;
 }
 
@@ -219,6 +219,11 @@ footer{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;	
+}
+.numbers-flex{
+	display: flex;
+	justify-content: space-between;
+	width: 50%;
 }
 .footer-number a{
 	font-family: "Bold";

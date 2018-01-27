@@ -1,0 +1,76 @@
+@media (max-width: 1400px){
+	.container {
+	    max-width: 1260px;
+	}
+	
+}
+
+@media (max-width: 780px){
+	.container {
+	    max-width: 700px;
+	}
+	.title{
+		font-size: 31px;
+	}
+	.header-flex{
+		padding:28px 0 20px 0;
+	}
+	.logo__item{
+		font-size: 1.6rem;
+	}
+	.banner-text__title{
+	    font-size: 35px;
+	    line-height: 32px;
+	}    
+	.banner-text{
+		padding-top: 85px;
+		padding-left: 50px;
+	}
+	.banner-text__desc{
+		width: 90%;
+	}
+	.banner-img{
+		background: transparent;
+		width: 70%;
+	}
+	.banner {	    
+	    height: 595px;	    
+	    background: #D8D8D8 url(../img/slide-bg-780.jpg);
+	    background-repeat: no-repeat;
+	}
+	.content .title{
+		margin-top: 70px;
+		margin-bottom: 55px;
+	}
+	.item-txt{
+		margin-top: 17px;
+		width: 100%;
+	}
+	.register-text{
+		width: 100%;
+	}
+	.registration-form label{
+		display: block;
+		margin-top: 7px;
+	}
+	footer{
+		margin-top: 50px;
+	}
+	.footer-logo{
+		margin-bottom: 40px;
+	}
+	.conf-politic{
+		width: 40%;
+    	margin: 0 auto;
+   		margin-bottom: 22px;
+    	margin-top: 23px!important;
+	}
+	.footer-flex{
+		flex-direction: column;
+    	align-items: center;
+	}
+	.numbers-flex{
+		width: 85%;
+		margin-bottom: 30px;
+	}
+}
