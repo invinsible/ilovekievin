@@ -18,6 +18,7 @@
 body{
 	font-family: "Regular", sans-serif;
 	font-size: 16px;
+	color: #002543;
 }
 .container{
 	max-width: 1260px;
@@ -25,12 +26,11 @@ body{
 }
 .title{
 	font-family: "Bold";
-	font-size: 36px;
-	color: #002543;
+	font-size: 36px;	
 	text-align: center;
 }
 
-/* header */
+/* HEADER */
 .header-flex{
 	padding: 48px 0 43px 0;
     display: flex;
@@ -40,13 +40,13 @@ body{
 .logo__item{
 	font-family: "Extrabold";
 	font-size: 30px;
-	color: #002543;	
+	color: #002543;
 }
 .menu__href{
 	font-family: "Bold";
 	font-size: 10px;
 	color: #002543;
-	letter-spacing: 1px;
+	letter-spacing: 0.1em;
 	text-transform: uppercase;
 }
 .menu__item{
@@ -57,7 +57,7 @@ body{
 	margin-left: 0px;
 }
 
-/* Banner */
+/* BANNER */
 .banner{
 	background: #D8D8D8;
 	display: flex;
@@ -85,7 +85,7 @@ body{
 .banner-text__title{
 	font-family: "GeometriaBold";
 	font-size: 44px;
-	color: #002543;
+	
 	line-height: 40px;
 	margin-bottom: 25px;
 }
@@ -95,6 +95,7 @@ body{
 	color: #525252;
 }
 
+/* CONTENT */
 .content-flex{
 	display: flex;
 	flex-wrap: wrap;
@@ -125,6 +126,78 @@ body{
 .item-txt span{
 	display: block;
 	font-family: GeometriaBold;
-	color: #002543;
+	
 	margin-bottom: 10px;
+}
+
+/* REGISTER */
+.register .title{
+	margin-top: 130px;
+	margin-bottom: 30px;
+}
+
+.register-text{
+	text-align: center;
+	line-height: 24px;
+	width: 65%;
+    margin: auto;
+}
+.registration-form{
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 35px;
+}
+.registration-form input[type="text"], .registration-form input[type="password"] {
+    background: #F4F5F9;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 15px 20px;
+    font-size: 15px;
+    font-family: "Regular";
+    color: rgba(0, 37, 67, 0.5);
+    width: 258px;
+    margin-right: 20px;
+}
+.conf-politic{
+	font-size: 14px;
+	line-height: 18px;
+	color: #525252;
+	display: block;
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+.conf-politic a{
+	color: #002543;
+	border-bottom: 2px solid #f59aa0;
+}
+.conf-politic a:hover{
+	border-color: transparent;
+}
+.conf-politic input[type=checkbox]{
+    background: url(../img/checkbox.png)no-repeat;
+    height: 24px;
+    width: 24px;
+    -webkit-appearance: none;
+    outline: none;
+    vertical-align: middle;
+}
+.conf-politic input[type=checkbox]:checked{
+	background-position: 0px -25px;
+}
+.sub-btn{
+	border-radius: 5px;
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	border:none;
+	outline: none;
+	background: #EB3441;
+    padding: 18px 57px;
+	font-family: "Bold";
+}
+button.no-active{
+	background: rgba(235, 52, 65, 0.5);;
 }
